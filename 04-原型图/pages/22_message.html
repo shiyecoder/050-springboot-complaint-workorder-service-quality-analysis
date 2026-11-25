@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>站内消息 · 客诉工单与服务质量分析系统</title>
+<link rel="stylesheet" href="../mock.css">
+<style></style></head>
+<body><div class="shell">
+<aside class="side" style="background:#19324A">
+  <div class="brand"><span class="mark">客</span>客诉工单系统</div>
+  <nav class="nav">
+<div class="group">工作台</div>
+<a class="" href="02_dashboard.html">服务质量驾驶舱</a>
+<div class="group">受理与分派</div>
+<a class="" href="03_intake_desk.html">客诉受理台<span class="badge">5</span></a>
+<a class="" href="07_dispatch.html">SLA工单看板<span class="badge">7</span></a>
+<a class="" href="14_warning.html">时限预警中心<span class="badge">4</span></a>
+<a class="" href="15_delay.html">延时申请审批<span class="badge">2</span></a>
+<div class="group">过程管控</div>
+<a class="" href="05_ticket_list.html">投诉台账</a>
+<a class="" href="06_ticket_detail.html">投诉详情</a>
+<a class="" href="10_review.html">结果审核<span class="badge">6</span></a>
+<a class="" href="13_reopen.html">重开记录</a>
+<div class="group">质量改进</div>
+<a class="" href="16_cluster.html">共性问题分析</a>
+<a class="" href="17_rule.html">聚类规则与权重</a>
+<a class="" href="18_rectify.html">整改任务<span class="badge">3</span></a>
+<a class="" href="19_knowledge.html">知识库</a>
+<div class="group">个人</div>
+<a class="on" href="22_message.html">站内消息<span class="badge">3</span></a>
+<a class="" href="23_profile.html">个人中心</a>
+</nav>
+  <div style="padding:9px 18px 0;font-size:11px;color:#7E8F9C;line-height:1.7;border-top:1px solid rgba(255,255,255,.1);margin-top:8px">
+    客户服务中心 · 待办 11 项
+  </div>
+</aside>
+<div class="main">
+  <header class="top">
+    <div class="crumb">个人 / <b>站内消息</b></div>
+    <div class="spacer"></div>
+    <div class="crumb">客户服务中心</div>
+    <button class="icon-btn"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" style="display:block;flex:0 0 auto;color:currentColor"><path d="M6 9a6 6 0 1112 0c0 4 1.5 6 1.5 6h-15S6 13 6 9z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M10 18.5a2 2 0 004 0" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
+    <button class="icon-btn"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" style="display:block;flex:0 0 auto;color:currentColor"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M9.6 9.4a2.5 2.5 0 114.2 1.9c-.9.7-1.8 1.2-1.8 2.5M12 17.2v.4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
+    <div class="avatar">沈</div>
+    <div style="font-size:13px">沈玉兰<span style="color:#5B6A76;font-size:12px;display:block;line-height:1.2">质量经理</span></div>
+  </header>
+  <div class="content">
+<div class="page-head"><div>
+  <h1>站内消息</h1>
+  <div class="sub">未读 3 条 · 消息均带业务编号，可一键跳转详情</div>
+</div><div class="acts">
+  <button class="btn">全部标为已读</button>
+</div></div>
+<div class="tabs">
+  <a class="on" href="#">全部<span class="c">3</span></a>
+  <a href="#">待我处理<span class="c">2</span></a>
+  <a href="#">即将超时<span class="c">1</span></a>
+  <a href="#">待验收<span class="c">0</span></a>
+</div>
+<div class="card">
+<div class="tbl-wrap"><table><thead><tr><th></th><th>类型</th><th>标题</th><th>业务编号</th><th>发送人</th><th>时间</th><th>操作</th></tr></thead><tbody><tr><td><span style="color:#B02A37">●</span></td><td><span class="tag t-amber">待我处理</span></td><td>工单 CS2026-0917 已分派给您</td><td class="nowrap"><a href="06_ticket_detail.html" class="num">CS2026-0917</a></td><td>沈玉兰</td><td class="num">2026-11-01 09:40</td><td class="nowrap"><a class="btn sm" href="06_ticket_detail.html">查看</a></td></tr><tr><td><span style="color:#B02A37">●</span></td><td><span class="tag t-red">即将超时</span></td><td>工单 CS2026-0917 响应时限不足 30 分钟</td><td class="nowrap"><span class="num">CS2026-0917</span></td><td>系统</td><td class="num">2026-11-01 10:42</td><td class="nowrap"><a class="btn sm" href="06_ticket_detail.html">查看</a></td></tr><tr><td><span style="color:#B02A37">●</span></td><td><span class="tag t-red">已退回</span></td><td>您的处理方案被退回，请补充证据</td><td class="nowrap"><span class="num">CS2026-0908</span></td><td>沈玉兰</td><td class="num">2026-10-31 10:24</td><td class="nowrap"><a class="btn sm" href="09_handle_edit.html">查看</a></td></tr><tr><td></td><td><span class="tag t-amber">待验收</span></td><td>整改任务 ZG-2026-011 已提交待验收</td><td class="nowrap"><span class="num">ZG-2026-011</span></td><td>吴海涛</td><td class="num">2026-10-31 09:12</td><td class="nowrap"><a class="btn sm" href="18_rectify.html">查看</a></td></tr><tr><td></td><td><span class="tag t-green">处理完成</span></td><td>工单 CS2026-0915 已由客户确认接受</td><td class="nowrap"><span class="num">CS2026-0915</span></td><td>系统</td><td class="num">2026-10-31 18:02</td><td class="nowrap"><a class="btn sm" href="06_ticket_detail.html">查看</a></td></tr></tbody></table></div><div class="pager"><div>共 <b>23</b> 条 · 每页 <select style="width:78px;height:28px;display:inline-block"><option>10</option><option>20</option><option>50</option></select> 条</div><div style="display:flex;gap:6px;align-items:center"><button class="btn sm">上一页</button><span style="padding:0 6px" class="num">1 / 3</span><button class="btn sm">下一页</button></div></div></div></div>
+</div>
+</div></body></html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>提交处理方案 · 客诉工单与服务质量分析系统</title>
+<link rel="stylesheet" href="../mock.css">
+<style></style></head>
+<body><div class="shell">
+<aside class="side" style="background:#2A4E5E">
+  <div class="brand"><span class="mark">客</span>客诉工单系统</div>
+  <nav class="nav">
+<div class="group">我的工单</div>
+<a class="" href="08_handle_desk.html">我的处理台<span class="badge">5</span></a>
+<a class="on" href="09_handle_edit.html">提交处理方案</a>
+<a class="" href="06_ticket_detail.html">投诉详情</a>
+<div class="group">协同</div>
+<a class="" href="12_revisit.html">回访记录</a>
+<a class="" href="19_knowledge.html">知识库</a>
+<div class="group">个人</div>
+<a class="" href="22_message.html">站内消息<span class="badge">3</span></a>
+<a class="" href="23_profile.html">个人中心</a>
+</nav>
+  <div style="padding:9px 18px 0;font-size:11px;color:#7E8F9C;line-height:1.7;border-top:1px solid rgba(255,255,255,.1);margin-top:8px">
+    客户服务中心 · 待办 11 项
+  </div>
+</aside>
+<div class="main">
+  <header class="top">
+    <div class="crumb">我的工单 / <b>提交处理方案</b></div>
+    <div class="spacer"></div>
+    <div class="crumb">客户服务中心</div>
+    <button class="icon-btn"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" style="display:block;flex:0 0 auto;color:currentColor"><path d="M6 9a6 6 0 1112 0c0 4 1.5 6 1.5 6h-15S6 13 6 9z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M10 18.5a2 2 0 004 0" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
+    <button class="icon-btn"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" style="display:block;flex:0 0 auto;color:currentColor"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M9.6 9.4a2.5 2.5 0 114.2 1.9c-.9.7-1.8 1.2-1.8 2.5M12 17.2v.4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
+    <div class="avatar">郑</div>
+    <div style="font-size:13px">郑立<span style="color:#5B6A76;font-size:12px;display:block;line-height:1.2">处理人</span></div>
+  </header>
+  <div class="content">
+<div class="page-head"><div>
+  <h1>提交处理方案</h1>
+  <div class="sub">CS2026-0917 · 张伟 · 安装质量问题 · 处理截止 2026-11-02 09:12</div>
+</div><div class="acts">
+  <button class="btn">存为草稿</button>
+  <button class="btn primary">提交审核</button>
+</div></div>
+<div class="row" style="align-items:flex-start">
+  <div style="flex:1;min-width:560px">
+    <div class="card" style="margin-bottom:14px">
+      <h2>调查情况</h2>
+      <div class="fgrid">
+        <div class="it full"><span>调查过程</span><textarea rows="3">11-01 10:30 上门复检，拆解锁体后确认为电机轴承磨损，非安装工艺导致；同批次 7702 共 12 台已交付，抽样 2 台同症状。</textarea></div>
+        <div class="it full"><span><i style="color:#B02A37">*</i> 责任认定</span><select><option>产品质量责任（供方）</option><option>安装工艺责任（本部门）</option><option>客户使用不当</option><option>多方责任</option></select></div>
+        <div class="it"><span>计划完成</span><input type="datetime-local" value="2026-11-02T15:00"></div>
+        <div class="it"><span>是否需客户到场</span><select><option>需要</option><option>不需要</option></select></div>
+        <div class="it full"><span><i style="color:#B02A37">*</i> 解决方案</span><textarea rows="3">为客户端免费更换 K7 新机 1 台（含新锁体），11-02 上午上门更换并回收旧机；同步退还本次安装费 180 元，作为体验补偿。</textarea></div>
+        <div class="it full"><span>内部意见</span><textarea rows="2">建议质量管理部对 7702 批次做全量排查，避免同类投诉集中爆发。</textarea></div>
+      </div>
+      <div class="note" style="margin-top:12px">内部意见与客户可见回复分开存储，客户门户与确认页只展示「解决方案」，不展示内部意见。</div>
+    </div>
+    <div class="card" style="margin-bottom:14px">
+      <h2>客户可见回复</h2>
+      <textarea rows="3" style="width:100%">张先生您好，已确认门锁异响由锁体电机批次问题导致，我们将在 11 月 2 日上午 10 点上门为您免费更换全新门锁，并退还本次安装费用 180 元。给您带来不便，深表歉意。</textarea>
+    </div>
+    <div class="card">
+      <h2>处理附件</h2>
+      <div class="hint" style="margin-bottom:10px">上传检测照片、报价单、客户确认截图，作为审核依据。仅支持本地上传。</div>
+      <div class="imgs"><div class="img-box">锁体拆解照片</div><div class="img-box">批次检测单</div><div class="upload">+ 上传附件</div></div>
+    </div>
+  </div>
+  <div style="width:340px;flex:0 0 340px">
+    <div class="card" style="margin-bottom:14px">
+      <h2>单据摘要</h2>
+      <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:12px 20px"><div><span style="color:#5B6A76;font-size:13px">客诉编号</span><div style="font-size:13px;margin-top:3px"><span class="num">CS2026-0917</span></div></div><div><span style="color:#5B6A76;font-size:13px">客户</span><div style="font-size:13px;margin-top:3px">张伟</div></div><div><span style="color:#5B6A76;font-size:13px">等级</span><div style="font-size:13px;margin-top:3px"><span class="tag t-red">严重</span></div></div><div><span style="color:#5B6A76;font-size:13px">当前状态</span><div style="font-size:13px;margin-top:3px"><span class="tag t-blue">处理中</span></div></div><div><span style="color:#5B6A76;font-size:13px">我的角色</span><div style="font-size:13px;margin-top:3px"><span class="tag t-blue">主办</span></div></div><div><span style="color:#5B6A76;font-size:13px">剩余时限</span><div style="font-size:13px;margin-top:3px"><span class="num" style="color:#B02A37">17.4 小时</span></div></div></div>
+    </div>
+    <div class="card" style="margin-bottom:14px">
+      <h2>提交后流转</h2>
+      <div class="timeline">
+        <div class="ev ok"><div class="h">提交处理结果</div><div class="d">状态 → 待审核</div></div>
+        <div class="ev"><div class="h">客服/组长审核</div><div class="d">检查方案、证据与责任认定</div></div>
+        <div class="ev"><div class="h">客户确认</div><div class="d">超期未确认自动转待回访</div></div>
+        <div class="ev"><div class="h">回访归档</div><div class="d">记录满意度与后续行动</div></div>
+      </div>
+    </div>
+    <div class="card">
+      <h2>退回记录</h2>
+      <div class="hint">暂无退回记录</div>
+    </div>
+  </div>
+</div></div>
+</div>
+</div></body></html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>服务质量驾驶舱 · 客诉工单与服务质量分析系统</title>
+<link rel="stylesheet" href="../mock.css">
+<style>.dash{grid-auto-rows:296px}</style></head>
+<body><div class="shell">
+<aside class="side" style="background:#19324A">
+  <div class="brand"><span class="mark">客</span>客诉工单系统</div>
+  <nav class="nav">
+<div class="group">工作台</div>
+<a class="on" href="02_dashboard.html">服务质量驾驶舱</a>
+<div class="group">受理与分派</div>
+<a class="" href="03_intake_desk.html">客诉受理台<span class="badge">5</span></a>
+<a class="" href="07_dispatch.html">SLA工单看板<span class="badge">7</span></a>
+<a class="" href="14_warning.html">时限预警中心<span class="badge">4</span></a>
+<a class="" href="15_delay.html">延时申请审批<span class="badge">2</span></a>
+<div class="group">过程管控</div>
+<a class="" href="05_ticket_list.html">投诉台账</a>
+<a class="" href="06_ticket_detail.html">投诉详情</a>
+<a class="" href="10_review.html">结果审核<span class="badge">6</span></a>
+<a class="" href="13_reopen.html">重开记录</a>
+<div class="group">质量改进</div>
+<a class="" href="16_cluster.html">共性问题分析</a>
+<a class="" href="17_rule.html">聚类规则与权重</a>
+<a class="" href="18_rectify.html">整改任务<span class="badge">3</span></a>
+<a class="" href="19_knowledge.html">知识库</a>
+<div class="group">个人</div>
+<a class="" href="22_message.html">站内消息<span class="badge">3</span></a>
+<a class="" href="23_profile.html">个人中心</a>
+</nav>
+  <div style="padding:9px 18px 0;font-size:11px;color:#7E8F9C;line-height:1.7;border-top:1px solid rgba(255,255,255,.1);margin-top:8px">
+    客户服务中心 · 待办 11 项
+  </div>
+</aside>
+<div class="main">
+  <header class="top">
+    <div class="crumb">工作台 / <b>服务质量驾驶舱</b></div>
+    <div class="spacer"></div>
+    <div class="crumb">客户服务中心</div>
+    <button class="icon-btn"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" style="display:block;flex:0 0 auto;color:currentColor"><path d="M6 9a6 6 0 1112 0c0 4 1.5 6 1.5 6h-15S6 13 6 9z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M10 18.5a2 2 0 004 0" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
+    <button class="icon-btn"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" style="display:block;flex:0 0 auto;color:currentColor"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M9.6 9.4a2.5 2.5 0 114.2 1.9c-.9.7-1.8 1.2-1.8 2.5M12 17.2v.4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
+    <div class="avatar">沈</div>
+    <div style="font-size:13px">沈玉兰<span style="color:#5B6A76;font-size:12px;display:block;line-height:1.2">质量经理</span></div>
+  </header>
+  <div class="content">
+<div class="page-head"><div>
+  <h1>服务质量驾驶舱</h1>
+  <div class="sub">统计区间 2026-10-03 至 2026-11-01（最近 30 天） · 数据每 10 分钟刷新</div>
+</div><div class="acts">
+  <select style="width:150px"><option>最近 30 天</option><option>本月</option><option>本季度</option><option>本年</option><option>自定义</option></select>
+  <button class="btn">导出报表</button>
+</div></div>
+<div class="kpis compact"><div class="kpi"><div class="label">本月投诉量</div><div class="value">286<small>件</small></div><div class="delta">↑ 12.4% 环比</div></div><div class="kpi"><div class="label">平均响应时长</div><div class="value">2.4<small>h</small></div><div class="delta">↓ 0.6h 优于目标</div></div><div class="kpi"><div class="label">按期解决率</div><div class="value">91.6<small>%</small></div><div class="delta">目标 90%</div></div><div class="kpi"><div class="label">一次解决率</div><div class="value">78.3<small>%</small></div><div class="delta">↑ 3.1pt</div></div><div class="kpi"><div class="label">重开率</div><div class="value">6.8<small>%</small></div><div class="delta down">↑ 1.2pt 需关注</div></div><div class="kpi"><div class="label">客户满意度</div><div class="value">4.42<small>分</small></div><div class="delta">满分 5.0</div></div></div>
+<div class="dash">
+<div class="c span2"><div class="ct">投诉趋势 · 近 12 周<span>新受理 / 已解决</span></div><div class="cbody"><svg class="chart-line" viewBox="0 0 470 200" preserveAspectRatio="none"><line x1="32" y1="10.0" x2="462" y2="10.0" stroke="#EDF1F4"/><text x="28" y="13.0" font-size="9" fill="#8A98A5" text-anchor="end">71</text><line x1="32" y1="67.3" x2="462" y2="67.3" stroke="#EDF1F4"/><text x="28" y="70.3" font-size="9" fill="#8A98A5" text-anchor="end">47</text><line x1="32" y1="124.7" x2="462" y2="124.7" stroke="#EDF1F4"/><text x="28" y="127.7" font-size="9" fill="#8A98A5" text-anchor="end">23</text><line x1="32" y1="182.0" x2="462" y2="182.0" stroke="#EDF1F4"/><text x="28" y="185.0" font-size="9" fill="#8A98A5" text-anchor="end">0</text><polyline points="32.0,91.0 71.1,76.6 110.2,83.8 149.3,57.5 188.4,69.4 227.5,43.1 266.5,31.1 305.6,50.3 344.7,35.9 383.8,64.7 422.9,52.7 462.0,69.4" fill="none" stroke="#356A7A" stroke-width="1.8" stroke-linejoin="round"/><circle cx="462.0" cy="69.4" r="2.6" fill="#356A7A"/><circle cx="32.0" cy="91.0" r="2.6" fill="#356A7A"/><polyline points="32.0,100.6 71.1,86.2 110.2,88.6 149.3,69.4 188.4,76.6 227.5,57.5 266.5,43.1 305.6,59.9 344.7,45.5 383.8,71.8 422.9,62.3 462.0,76.6" fill="none" stroke="#456C7E" stroke-width="1.8" stroke-linejoin="round"/><circle cx="462.0" cy="76.6" r="2.6" fill="#456C7E"/><circle cx="32.0" cy="100.6" r="2.6" fill="#456C7E"/><text x="32.0" y="196" font-size="9" fill="#8A98A5" text-anchor="middle">12-01</text><text x="110.2" y="196" font-size="9" fill="#8A98A5" text-anchor="middle">12-20</text><text x="188.4" y="196" font-size="9" fill="#8A98A5" text-anchor="middle">01-12</text><text x="266.5" y="196" font-size="9" fill="#8A98A5" text-anchor="middle">02-05</text><text x="344.7" y="196" font-size="9" fill="#8A98A5" text-anchor="middle">02-27</text><text x="422.9" y="196" font-size="9" fill="#8A98A5" text-anchor="middle">03-21</text></svg></div></div><div class="c"><div class="ct">投诉渠道占比<span>件</span></div><div class="cbody"><div class="donut-wrap"><div class="donut" style="background:conic-gradient(#19324A 0.00deg 148.53deg,#356A7A 148.53deg 239.16deg,#456C7E 239.16deg 307.13deg,#8AA6B2 307.13deg 341.12deg,#B4C0CC 341.12deg 360.00deg)"><div class="mid"><div><b>286</b><span>总投诉</span></div></div></div><div class="lg"><div><i style="background:#19324A"></i>电话<b>118</b></div><div><i style="background:#356A7A"></i>门店<b>72</b></div><div><i style="background:#456C7E"></i>微信<b>54</b></div><div><i style="background:#8AA6B2"></i>邮件<b>27</b></div><div><i style="background:#B4C0CC"></i>官网<b>15</b></div></div></div></div></div><div class="c"><div class="ct">问题类别分布</div><div class="cbody"><div class="hbar"><div class="n">安装质量</div><div class="t"><i style="width:100.0%"></i></div><div class="v">74</div></div><div class="hbar"><div class="n">产品故障</div><div class="t"><i style="width:85.1%"></i></div><div class="v">63</div></div><div class="hbar"><div class="n">配送延误</div><div class="t"><i style="width:70.3%"></i></div><div class="v">52</div></div><div class="hbar"><div class="n">收费争议</div><div class="t"><i style="width:55.4%"></i></div><div class="v">41</div></div><div class="hbar"><div class="n">服务不佳</div><div class="t"><i style="width:44.6%"></i></div><div class="v">33</div></div><div class="hbar"><div class="n">态度问题</div><div class="t"><i style="width:31.1%"></i></div><div class="v">23</div></div></div></div><div class="c"><div class="ct">责任部门时效排行<span>平均小时</span></div><div class="cbody"><div class="hbar"><div class="n">安装服务部</div><div class="t"><i style="width:100.0%"></i></div><div class="v">38.2</div></div><div class="hbar"><div class="n">物流配送部</div><div class="t"><i style="width:82.7%"></i></div><div class="v">31.6</div></div><div class="hbar"><div class="n">售后服务部</div><div class="t"><i style="width:69.1%"></i></div><div class="v">26.4</div></div><div class="hbar"><div class="n">质量管理部</div><div class="t"><i style="width:49.5%"></i></div><div class="v">18.9</div></div><div class="hbar"><div class="n">客服中心</div><div class="t"><i style="width:32.2%"></i></div><div class="v">12.3</div></div></div></div><div class="c"><div class="ct">一次解决率 · 月度</div><div class="cbody"><svg class="chart-line" viewBox="0 0 300 150" preserveAspectRatio="none"><line x1="32" y1="10.0" x2="292" y2="10.0" stroke="#EDF1F4"/><text x="28" y="13.0" font-size="9" fill="#8A98A5" text-anchor="end">88</text><line x1="32" y1="50.7" x2="292" y2="50.7" stroke="#EDF1F4"/><text x="28" y="53.7" font-size="9" fill="#8A98A5" text-anchor="end">59</text><line x1="32" y1="91.3" x2="292" y2="91.3" stroke="#EDF1F4"/><text x="28" y="94.3" font-size="9" fill="#8A98A5" text-anchor="end">29</text><line x1="32" y1="132.0" x2="292" y2="132.0" stroke="#EDF1F4"/><text x="28" y="135.0" font-size="9" fill="#8A98A5" text-anchor="end">0</text><polyline points="32.0,34.6 84.0,31.8 136.0,33.2 188.0,29.1 240.0,30.5 292.0,25.0" fill="none" stroke="#356A7A" stroke-width="1.8" stroke-linejoin="round"/><circle cx="292.0" cy="25.0" r="2.6" fill="#356A7A"/><circle cx="32.0" cy="34.6" r="2.6" fill="#356A7A"/><text x="32.0" y="146" font-size="9" fill="#8A98A5" text-anchor="middle">06</text><text x="84.0" y="146" font-size="9" fill="#8A98A5" text-anchor="middle">07</text><text x="136.0" y="146" font-size="9" fill="#8A98A5" text-anchor="middle">08</text><text x="188.0" y="146" font-size="9" fill="#8A98A5" text-anchor="middle">09</text><text x="240.0" y="146" font-size="9" fill="#8A98A5" text-anchor="middle">10</text><text x="292.0" y="146" font-size="9" fill="#8A98A5" text-anchor="end">11</text></svg></div></div><div class="c"><div class="ct">共性聚类结果分布<span>组</span></div><div class="cbody"><div class="donut-wrap"><div class="donut" style="background:conic-gradient(#19324A 0.00deg 130.59deg,#356A7A 130.59deg 215.29deg,#8AA6B2 215.29deg 360.00deg)"><div class="mid"><div><b>37</b><span>高相似组</span></div></div></div><div class="lg"><div><i style="background:#19324A"></i>高相似<b>37</b></div><div><i style="background:#356A7A"></i>中相似<b>24</b></div><div><i style="background:#8AA6B2"></i>低相似<b>41</b></div></div></div></div></div><div class="c"><div class="ct">共性问题 TOP4<span>近30天次数</span></div><div class="cbody"><div class="vbars"><div><div class="num">17</div><div class="b alt" style="height:80.0%"></div><div class="lb">门锁异响</div></div><div><div class="num">14</div><div class="b" style="height:65.9%"></div><div class="lb">净水器漏水</div></div><div><div class="num">11</div><div class="b alt" style="height:51.8%"></div><div class="lb">点火故障</div></div><div><div class="num">9</div><div class="b" style="height:42.4%"></div><div class="lb">配送超区</div></div></div></div></div></div></div>
+</div>
+</div></body></html>

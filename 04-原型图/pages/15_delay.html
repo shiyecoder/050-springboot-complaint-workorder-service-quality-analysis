@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>延时申请审批 · 客诉工单与服务质量分析系统</title>
+<link rel="stylesheet" href="../mock.css">
+<style></style></head>
+<body><div class="shell">
+<aside class="side" style="background:#19324A">
+  <div class="brand"><span class="mark">客</span>客诉工单系统</div>
+  <nav class="nav">
+<div class="group">工作台</div>
+<a class="" href="02_dashboard.html">服务质量驾驶舱</a>
+<div class="group">受理与分派</div>
+<a class="" href="03_intake_desk.html">客诉受理台<span class="badge">5</span></a>
+<a class="" href="07_dispatch.html">SLA工单看板<span class="badge">7</span></a>
+<a class="" href="14_warning.html">时限预警中心<span class="badge">4</span></a>
+<a class="on" href="15_delay.html">延时申请审批<span class="badge">2</span></a>
+<div class="group">过程管控</div>
+<a class="" href="05_ticket_list.html">投诉台账</a>
+<a class="" href="06_ticket_detail.html">投诉详情</a>
+<a class="" href="10_review.html">结果审核<span class="badge">6</span></a>
+<a class="" href="13_reopen.html">重开记录</a>
+<div class="group">质量改进</div>
+<a class="" href="16_cluster.html">共性问题分析</a>
+<a class="" href="17_rule.html">聚类规则与权重</a>
+<a class="" href="18_rectify.html">整改任务<span class="badge">3</span></a>
+<a class="" href="19_knowledge.html">知识库</a>
+<div class="group">个人</div>
+<a class="" href="22_message.html">站内消息<span class="badge">3</span></a>
+<a class="" href="23_profile.html">个人中心</a>
+</nav>
+  <div style="padding:9px 18px 0;font-size:11px;color:#7E8F9C;line-height:1.7;border-top:1px solid rgba(255,255,255,.1);margin-top:8px">
+    客户服务中心 · 待办 11 项
+  </div>
+</aside>
+<div class="main">
+  <header class="top">
+    <div class="crumb">受理与分派 / <b>延时申请审批</b></div>
+    <div class="spacer"></div>
+    <div class="crumb">客户服务中心</div>
+    <button class="icon-btn"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" style="display:block;flex:0 0 auto;color:currentColor"><path d="M6 9a6 6 0 1112 0c0 4 1.5 6 1.5 6h-15S6 13 6 9z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M10 18.5a2 2 0 004 0" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
+    <button class="icon-btn"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" style="display:block;flex:0 0 auto;color:currentColor"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M9.6 9.4a2.5 2.5 0 114.2 1.9c-.9.7-1.8 1.2-1.8 2.5M12 17.2v.4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
+    <div class="avatar">沈</div>
+    <div style="font-size:13px">沈玉兰<span style="color:#5B6A76;font-size:12px;display:block;line-height:1.2">质量经理</span></div>
+  </header>
+  <div class="content">
+<div class="page-head"><div>
+  <h1>延时申请审批</h1>
+  <div class="sub">待审批 2 条 · 延时审批由质量经理执行 · 同一工单累计延时不得超过原时限的 100%</div>
+</div><div class="acts">
+  <select style="width:170px"><option>全部状态</option><option>待审批</option><option>已通过</option><option>已驳回</option></select>
+</div></div>
+<div class="row" style="align-items:flex-start">
+  <div style="flex:1;min-width:520px">
+    <div class="card">
+<div class="tbl-wrap"><table><thead><tr><th>申请单号</th><th>客诉编号</th><th>申请人</th><th>责任部门</th><th>申请延长</th><th>原截止</th><th>新截止</th><th>状态</th><th>操作</th></tr></thead><tbody><tr><td class="num">DL-2026-031</td><td class="nowrap"><span class="num">CS2026-0911</span></td><td>郑立</td><td>安装服务部</td><td class="num">8 小时</td><td class="num">2026-11-01 10:05</td><td class="num">2026-11-01 18:05</td><td><span class="tag t-amber">待审批</span></td><td class="nowrap"><button class="btn sm primary">审批</button></td></tr><tr><td class="num">DL-2026-030</td><td class="nowrap"><span class="num">CS2026-0905</span></td><td>吴海涛</td><td>物流配送部</td><td class="num">12 小时</td><td class="num">2026-11-01 11:26</td><td class="num">2026-11-01 23:26</td><td><span class="tag t-amber">待审批</span></td><td class="nowrap"><button class="btn sm primary">审批</button></td></tr><tr><td class="num">DL-2026-029</td><td class="nowrap"><span class="num">CS2026-0898</span></td><td>郑立</td><td>安装服务部</td><td class="num">4 小时</td><td class="num">2026-10-31 16:00</td><td class="num">2026-10-31 20:00</td><td><span class="tag t-green">已通过</span></td><td class="nowrap"><button class="btn sm">查看</button></td></tr><tr><td class="num">DL-2026-028</td><td class="nowrap"><span class="num">CS2026-0891</span></td><td>沈玉兰</td><td>质量管理部</td><td class="num">48 小时</td><td class="num">2026-10-30 09:00</td><td class="num">2026-11-01 09:00</td><td><span class="tag t-red">已驳回</span></td><td class="nowrap"><button class="btn sm">查看理由</button></td></tr></tbody></table></div><div class="pager"><div>共 <b>31</b> 条 · 每页 <select style="width:78px;height:28px;display:inline-block"><option>10</option><option>20</option><option>50</option></select> 条</div><div style="display:flex;gap:6px;align-items:center"><button class="btn sm">上一页</button><span style="padding:0 6px" class="num">1 / 4</span><button class="btn sm">下一页</button></div></div></div>
+  </div>
+  <div style="width:420px;flex:0 0 420px">
+    <div class="card">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px">
+        <h2 style="margin:0">审批 · DL-2026-031</h2><span class="tag t-amber">待审批</span>
+      </div>
+      <div class="summary" style="margin-bottom:12px;grid-template-columns:repeat(2,1fr)">
+        <div><div class="k">原处理截止</div><div class="v" style="font-size:15px">11-01 18:05</div></div>
+        <div><div class="k">申请延长</div><div class="v" style="font-size:15px">8 小时</div></div>
+      </div>
+      <div class="hint" style="margin-bottom:6px">申请原因（郑立 · 2026-11-01 17:12）</div>
+      <div style="font-size:13px;line-height:1.9;margin-bottom:12px">客户约定的上门时间为 11-02 上午，需与客户共同到场验收；今日无法完成更换与旧机回收，申请延长 8 小时至 11-02 02:05。</div>
+      <div class="hint" style="margin-bottom:6px">审批意见</div>
+      <textarea rows="3" style="width:100%">客户约定时间为客观因素，同意延长 8 小时。请在延期后第一时间回填上门结果。</textarea>
+      <div style="display:flex;gap:8px;margin-top:12px">
+        <button class="btn primary" style="flex:1">通过</button>
+        <button class="btn danger" style="flex:0 0 96px">驳回</button>
+      </div>
+      <div class="note" style="margin-top:12px">延时审批通过会同时更新 SLA 截止时间与预警扫描基线，并在时间轴记录「延时批准 · 8 小时 · 原因」，不改变工单状态。</div>
+    </div>
+  </div>
+</div></div>
+</div>
+</div></body></html>

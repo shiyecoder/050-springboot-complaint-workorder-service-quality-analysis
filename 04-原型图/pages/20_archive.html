@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>客户与对象档案 · 客诉工单与服务质量分析系统</title>
+<link rel="stylesheet" href="../mock.css">
+<style></style></head>
+<body><div class="shell">
+<aside class="side" style="background:#23415C">
+  <div class="brand"><span class="mark">客</span>客诉工单系统</div>
+  <nav class="nav">
+<div class="group">受理作业</div>
+<a class="" href="03_intake_desk.html">客诉受理台<span class="badge">5</span></a>
+<a class="" href="04_intake_new.html">新建投诉登记</a>
+<a class="" href="05_ticket_list.html">投诉台账</a>
+<a class="" href="06_ticket_detail.html">投诉详情</a>
+<div class="group">服务闭环</div>
+<a class="" href="11_confirm.html">客户确认跟踪<span class="badge">4</span></a>
+<a class="" href="12_revisit.html">回访与评价<span class="badge">3</span></a>
+<a class="" href="19_knowledge.html">知识库</a>
+<a class="on" href="20_archive.html">客户与对象档案</a>
+<div class="group">个人</div>
+<a class="" href="22_message.html">站内消息<span class="badge">3</span></a>
+<a class="" href="23_profile.html">个人中心</a>
+</nav>
+  <div style="padding:9px 18px 0;font-size:11px;color:#7E8F9C;line-height:1.7;border-top:1px solid rgba(255,255,255,.1);margin-top:8px">
+    客户服务中心 · 待办 11 项
+  </div>
+</aside>
+<div class="main">
+  <header class="top">
+    <div class="crumb">服务闭环 / <b>客户与对象档案</b></div>
+    <div class="spacer"></div>
+    <div class="crumb">客户服务中心</div>
+    <button class="icon-btn"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" style="display:block;flex:0 0 auto;color:currentColor"><path d="M6 9a6 6 0 1112 0c0 4 1.5 6 1.5 6h-15S6 13 6 9z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M10 18.5a2 2 0 004 0" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
+    <button class="icon-btn"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" style="display:block;flex:0 0 auto;color:currentColor"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M9.6 9.4a2.5 2.5 0 114.2 1.9c-.9.7-1.8 1.2-1.8 2.5M12 17.2v.4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
+    <div class="avatar">何</div>
+    <div style="font-size:13px">何静文<span style="color:#5B6A76;font-size:12px;display:block;line-height:1.2">客服人员</span></div>
+  </header>
+  <div class="content">
+<div class="page-head"><div>
+  <h1>客户与对象档案</h1>
+  <div class="sub">客户 186 位 · 服务对象 214 个 · 支持按手机号与关联对象查历史客诉</div>
+</div><div class="acts">
+  <button class="btn primary">+ 新建客户</button>
+</div></div>
+<div class="tabs">
+  <a class="on" href="#">客户档案<span class="c">186</span></a>
+  <a href="#">服务对象<span class="c">214</span></a>
+</div>
+<div class="row" style="align-items:flex-start">
+  <div style="flex:1;min-width:560px">
+    <div class="card">
+      <div class="toolbar">
+        <input class="search" placeholder="姓名 / 手机号">
+        <select><option>全部客户类型</option><option>家装客户</option><option>工程客户</option><option>零售客户</option></select>
+        <select><option>全部区域</option><option>南湖市区</option><option>云栖片区</option><option>郊县</option></select>
+        <button class="btn primary">查询</button>
+      </div>
+<div class="tbl-wrap"><table><thead><tr><th>客户</th><th>手机号</th><th>客户类型</th><th>所属区域</th><th>累计投诉</th><th>近30天</th><th>最近投诉</th><th>操作</th></tr></thead><tbody><tr><td>张伟</td><td class="num">138****2210</td><td><span class="tag t-blue">家装客户</span></td><td>云栖片区</td><td class="num">4</td><td class="nowrap"><span class="num" style="color:#B02A37">2</span></td><td class="num">2026-11-01 09:12</td><td class="nowrap"><button class="btn sm">查看</button></td></tr><tr><td>李静</td><td class="num">139****6621</td><td><span class="tag t-gray">零售客户</span></td><td>南湖市区</td><td class="num">2</td><td class="nowrap"><span class="num">1</span></td><td class="num">2026-11-01 08:40</td><td class="nowrap"><button class="btn sm">查看</button></td></tr><tr><td>王海洋</td><td class="num">137****8890</td><td><span class="tag t-blue">工程客户</span></td><td>南湖市区</td><td class="num">3</td><td class="nowrap"><span class="num">1</span></td><td class="num">2026-10-31 17:26</td><td class="nowrap"><button class="btn sm">查看</button></td></tr><tr><td>陈美玲</td><td class="num">135****4432</td><td><span class="tag t-blue">家装客户</span></td><td>郊县</td><td class="num">1</td><td class="nowrap"><span class="num">1</span></td><td class="num">2026-10-31 15:03</td><td class="nowrap"><button class="btn sm">查看</button></td></tr><tr><td>刘建国</td><td class="num">136****1177</td><td><span class="tag t-gray">零售客户</span></td><td>云栖片区</td><td class="num">5</td><td class="nowrap"><span class="num">2</span></td><td class="num">2026-10-31 11:48</td><td class="nowrap"><button class="btn sm">查看</button></td></tr></tbody></table></div><div class="pager"><div>共 <b>186</b> 条 · 每页 <select style="width:78px;height:28px;display:inline-block"><option>10</option><option>20</option><option>50</option></select> 条</div><div style="display:flex;gap:6px;align-items:center"><button class="btn sm">上一页</button><span style="padding:0 6px" class="num">1 / 19</span><button class="btn sm">下一页</button></div></div></div>
+  </div>
+  <div style="width:380px;flex:0 0 380px">
+    <div class="card" style="margin-bottom:14px">
+      <h2>客户 · 张伟</h2>
+      <div class="kv" style="grid-template-columns:1fr 1fr;gap:8px">
+        <div><span style="color:#5B6A76;font-size:12px">手机号</span><div style="font-size:13px" class="num">138****2210</div></div>
+        <div><span style="color:#5B6A76;font-size:12px">客户类型</span><div style="font-size:13px">家装客户</div></div>
+        <div><span style="color:#5B6A76;font-size:12px">所属区域</span><div style="font-size:13px">云栖片区</div></div>
+        <div><span style="color:#5B6A76;font-size:12px">累计投诉</span><div style="font-size:13px">4 次</div></div>
+      </div>
+    </div>
+    <div class="card" style="margin-bottom:14px">
+      <h2>服务对象</h2>
+      <div class="tbl-wrap"><table><thead><tr><th>对象</th><th>SN</th><th>投诉</th></tr></thead><tbody>
+        <tr><td>智能门锁 K7</td><td class="num">7702-118843</td><td class="num">3</td></tr>
+        <tr><td>净水器 R500</td><td class="num">5501-992013</td><td class="num">1</td></tr>
+      </tbody></table></div>
+    </div>
+    <div class="card">
+      <h2>服务历史</h2>
+      <div class="timeline">
+        <div class="ev warn"><div class="h">CS2026-0917 · 处理中</div><div class="d">2026-11-01 · 安装质量 · 门锁异响</div></div>
+        <div class="ev"><div class="h">CS2026-0884 · 已归档（重开 2 次）</div><div class="d">2026-10-29 · 安装质量 · 门锁异响</div></div>
+        <div class="ev ok"><div class="h">CS2026-0781 · 已归档</div><div class="d">2026-09-14 · 安装质量 · 门锁异响</div></div>
+        <div class="ev ok"><div class="h">CS2026-0623 · 已归档</div><div class="d">2026-08-02 · 收费争议 · 检测费</div></div>
+      </div>
+    </div>
+  </div>
+</div></div>
+</div>
+</div></body></html>

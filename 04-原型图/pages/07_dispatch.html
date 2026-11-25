@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SLA工单看板 · 客诉工单与服务质量分析系统</title>
+<link rel="stylesheet" href="../mock.css">
+<style></style></head>
+<body><div class="shell">
+<aside class="side" style="background:#19324A">
+  <div class="brand"><span class="mark">客</span>客诉工单系统</div>
+  <nav class="nav">
+<div class="group">工作台</div>
+<a class="" href="02_dashboard.html">服务质量驾驶舱</a>
+<div class="group">受理与分派</div>
+<a class="" href="03_intake_desk.html">客诉受理台<span class="badge">5</span></a>
+<a class="on" href="07_dispatch.html">SLA工单看板<span class="badge">7</span></a>
+<a class="" href="14_warning.html">时限预警中心<span class="badge">4</span></a>
+<a class="" href="15_delay.html">延时申请审批<span class="badge">2</span></a>
+<div class="group">过程管控</div>
+<a class="" href="05_ticket_list.html">投诉台账</a>
+<a class="" href="06_ticket_detail.html">投诉详情</a>
+<a class="" href="10_review.html">结果审核<span class="badge">6</span></a>
+<a class="" href="13_reopen.html">重开记录</a>
+<div class="group">质量改进</div>
+<a class="" href="16_cluster.html">共性问题分析</a>
+<a class="" href="17_rule.html">聚类规则与权重</a>
+<a class="" href="18_rectify.html">整改任务<span class="badge">3</span></a>
+<a class="" href="19_knowledge.html">知识库</a>
+<div class="group">个人</div>
+<a class="" href="22_message.html">站内消息<span class="badge">3</span></a>
+<a class="" href="23_profile.html">个人中心</a>
+</nav>
+  <div style="padding:9px 18px 0;font-size:11px;color:#7E8F9C;line-height:1.7;border-top:1px solid rgba(255,255,255,.1);margin-top:8px">
+    客户服务中心 · 待办 11 项
+  </div>
+</aside>
+<div class="main">
+  <header class="top">
+    <div class="crumb">受理与分派 / <b>SLA工单看板</b></div>
+    <div class="spacer"></div>
+    <div class="crumb">客户服务中心</div>
+    <button class="icon-btn"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" style="display:block;flex:0 0 auto;color:currentColor"><path d="M6 9a6 6 0 1112 0c0 4 1.5 6 1.5 6h-15S6 13 6 9z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M10 18.5a2 2 0 004 0" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
+    <button class="icon-btn"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" style="display:block;flex:0 0 auto;color:currentColor"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M9.6 9.4a2.5 2.5 0 114.2 1.9c-.9.7-1.8 1.2-1.8 2.5M12 17.2v.4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
+    <div class="avatar">沈</div>
+    <div style="font-size:13px">沈玉兰<span style="color:#5B6A76;font-size:12px;display:block;line-height:1.2">质量经理</span></div>
+  </header>
+  <div class="content">
+<div class="page-head"><div>
+  <h1>SLA 工单看板</h1>
+  <div class="sub">按「待本人处理优先 + 更新时间倒序」排列 · 当前 7 条待办 · 2 条已超时</div>
+</div><div class="acts">
+  <select style="width:170px"><option>全部责任部门</option><option>安装服务部</option><option>售后服务部</option><option>物流配送部</option></select>
+  <button class="btn">批量分派</button>
+  <button class="btn primary">刷新</button>
+</div></div>
+<div class="summary">
+  <div><div class="k">待分派</div><div class="v" style="color:#8A6117">7</div></div>
+  <div><div class="k">待审核</div><div class="v">6</div></div>
+  <div><div class="k">已超时</div><div class="v" style="color:#B02A37">2</div></div>
+  <div><div class="k">平均在办时长</div><div class="v">11.4<span style="font-size:13px;color:#5B6A76"> h</span></div></div>
+</div>
+<div class="tabs">
+  <a class="on" href="#">全部<span class="c">38</span></a>
+  <a href="#">待办<span class="c">7</span></a>
+  <a href="#">处理中<span class="c">21</span></a>
+  <a href="#">已完成<span class="c">8</span></a>
+  <a href="#">异常<span class="c">2</span></a>
+</div>
+<div class="card">
+  <div class="toolbar">
+    <label style="display:flex;align-items:center;gap:6px;font-size:13px;color:#5B6A76"><input type="checkbox" style="width:14px;height:14px"> 全选本页</label>
+    <span class="hint">已选 3 条 · <a href="#">批量分派</a> · <a href="#">批量催办</a></span>
+  </div>
+<div class="tbl-wrap"><table><thead><tr><th></th><th>客诉编号</th><th>客户</th><th>问题分类</th><th>等级</th><th>责任部门</th><th>处理人</th><th>响应剩余</th><th>处理剩余</th><th>状态</th><th>操作</th></tr></thead><tbody><tr><td><input type="checkbox" checked style="width:14px;height:14px"></td><td class="nowrap"><a href="06_ticket_detail.html" class="num"><b>CS2026-0917</b></a></td><td>张伟</td><td>安装质量问题</td><td><span class="tag t-red">严重</span></td><td>安装服务部</td><td>郑立</td><td class="nowrap"><span class="num" style="color:#B02A37">0.4h</span></td><td class="nowrap"><span class="num">17.4h</span></td><td><span class="tag t-blue">处理中</span></td><td class="nowrap"><button class="btn sm">催办</button> <button class="btn sm ghost">转派</button></td></tr><tr><td><input type="checkbox" checked style="width:14px;height:14px"></td><td class="nowrap"><a href="06_ticket_detail.html" class="num"><b>CS2026-0913</b></a></td><td>刘建国</td><td>售后响应慢</td><td><span class="tag t-red">严重</span></td><td>售后服务部</td><td>—</td><td class="nowrap"><span class="num" style="color:#B02A37">已超 1.2h</span></td><td class="nowrap"><span class="num">22.8h</span></td><td><span class="tag t-blue">已分派</span></td><td class="nowrap"><button class="btn sm primary">分派处理人</button></td></tr><tr><td><input type="checkbox" checked style="width:14px;height:14px"></td><td class="nowrap"><span class="num"><b>CS2026-0911</b></span></td><td>孙鹏</td><td>安装质量问题</td><td><span class="tag t-amber">一般</span></td><td>安装服务部</td><td>郑立</td><td class="nowrap"><span class="num" style="color:#B02A37">已超 3.6h</span></td><td class="nowrap"><span class="num" style="color:#8A6117">2.2h</span></td><td><span class="tag t-blue">处理中</span></td><td class="nowrap"><button class="btn sm">催办</button> <button class="btn sm danger">升级</button></td></tr><tr><td><input type="checkbox" style="width:14px;height:14px"></td><td class="nowrap"><span class="num"><b>CS2026-0916</b></span></td><td>李静</td><td>收费争议</td><td><span class="tag t-amber">一般</span></td><td>售后服务部</td><td>郑立</td><td class="nowrap"><span class="num">—</span></td><td class="nowrap"><span class="num">—</span></td><td><span class="tag t-amber">待审核</span></td><td class="nowrap"><button class="btn sm">去审核</button></td></tr><tr><td><input type="checkbox" style="width:14px;height:14px"></td><td class="nowrap"><span class="num"><b>CS2026-0915</b></span></td><td>王海洋</td><td>产品故障</td><td><span class="tag t-red">严重</span></td><td>质量管理部</td><td>沈玉兰</td><td class="nowrap"><span class="num">—</span></td><td class="nowrap"><span class="num">8.1h</span></td><td><span class="tag t-amber">待客户确认</span></td><td class="nowrap"><button class="btn sm">查看</button></td></tr><tr><td><input type="checkbox" style="width:14px;height:14px"></td><td class="nowrap"><span class="num"><b>CS2026-0909</b></span></td><td>吴海涛</td><td>配送延误</td><td><span class="tag t-amber">一般</span></td><td>物流配送部</td><td>—</td><td class="nowrap"><span class="num">—</span></td><td class="nowrap"><span class="num">—</span></td><td><span class="tag t-red">已退回</span></td><td class="nowrap"><button class="btn sm">查看退回依据</button></td></tr></tbody></table></div><div class="pager"><div>共 <b>38</b> 条 · 每页 <select style="width:78px;height:28px;display:inline-block"><option>10</option><option>20</option><option>50</option></select> 条</div><div style="display:flex;gap:6px;align-items:center"><button class="btn sm">上一页</button><span style="padding:0 6px" class="num">1 / 4</span><button class="btn sm">下一页</button></div></div>
+  <div class="hint" style="margin-top:10px">退回、升级、转派均需填写不少于 5 个字的原因，并写入操作时间轴，不可删除。</div>
+</div></div>
+</div>
+</div></body></html>

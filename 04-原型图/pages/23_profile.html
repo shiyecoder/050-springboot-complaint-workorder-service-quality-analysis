@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>个人中心 · 客诉工单与服务质量分析系统</title>
+<link rel="stylesheet" href="../mock.css">
+<style></style></head>
+<body><div class="shell">
+<aside class="side" style="background:#19324A">
+  <div class="brand"><span class="mark">客</span>客诉工单系统</div>
+  <nav class="nav">
+<div class="group">工作台</div>
+<a class="" href="02_dashboard.html">服务质量驾驶舱</a>
+<div class="group">受理与分派</div>
+<a class="" href="03_intake_desk.html">客诉受理台<span class="badge">5</span></a>
+<a class="" href="07_dispatch.html">SLA工单看板<span class="badge">7</span></a>
+<a class="" href="14_warning.html">时限预警中心<span class="badge">4</span></a>
+<a class="" href="15_delay.html">延时申请审批<span class="badge">2</span></a>
+<div class="group">过程管控</div>
+<a class="" href="05_ticket_list.html">投诉台账</a>
+<a class="" href="06_ticket_detail.html">投诉详情</a>
+<a class="" href="10_review.html">结果审核<span class="badge">6</span></a>
+<a class="" href="13_reopen.html">重开记录</a>
+<div class="group">质量改进</div>
+<a class="" href="16_cluster.html">共性问题分析</a>
+<a class="" href="17_rule.html">聚类规则与权重</a>
+<a class="" href="18_rectify.html">整改任务<span class="badge">3</span></a>
+<a class="" href="19_knowledge.html">知识库</a>
+<div class="group">个人</div>
+<a class="" href="22_message.html">站内消息<span class="badge">3</span></a>
+<a class="on" href="23_profile.html">个人中心</a>
+</nav>
+  <div style="padding:9px 18px 0;font-size:11px;color:#7E8F9C;line-height:1.7;border-top:1px solid rgba(255,255,255,.1);margin-top:8px">
+    客户服务中心 · 待办 11 项
+  </div>
+</aside>
+<div class="main">
+  <header class="top">
+    <div class="crumb">个人 / <b>个人中心</b></div>
+    <div class="spacer"></div>
+    <div class="crumb">客户服务中心</div>
+    <button class="icon-btn"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" style="display:block;flex:0 0 auto;color:currentColor"><path d="M6 9a6 6 0 1112 0c0 4 1.5 6 1.5 6h-15S6 13 6 9z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M10 18.5a2 2 0 004 0" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
+    <button class="icon-btn"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" style="display:block;flex:0 0 auto;color:currentColor"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M9.6 9.4a2.5 2.5 0 114.2 1.9c-.9.7-1.8 1.2-1.8 2.5M12 17.2v.4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
+    <div class="avatar">沈</div>
+    <div style="font-size:13px">沈玉兰<span style="color:#5B6A76;font-size:12px;display:block;line-height:1.2">质量经理</span></div>
+  </header>
+  <div class="content">
+<div class="page-head"><div>
+  <h1>个人中心</h1>
+  <div class="sub">头像上传后立即同步到右上角与操作时间轴</div>
+</div></div>
+<div class="row" style="align-items:flex-start">
+  <div style="width:300px;flex:0 0 300px">
+    <div class="card" style="text-align:center">
+      <div style="width:88px;height:88px;border-radius:50%;background:linear-gradient(135deg,#356A7A,#19324A);color:#fff;display:grid;place-items:center;font-size:30px;margin:6px auto 12px">沈</div>
+      <div style="font-size:16px;font-weight:600">沈玉兰</div>
+      <div class="hint" style="margin-top:2px">质量经理 · 客户服务中心</div>
+      <button class="btn sm" style="margin-top:12px">更换头像</button>
+      <div class="hint" style="margin-top:8px">jpg / png，≤ 2MB</div>
+    </div>
+  </div>
+  <div style="flex:1;min-width:460px">
+    <div class="card" style="margin-bottom:14px">
+      <h2>基本资料</h2>
+      <div class="fgrid">
+        <div class="it"><span>工号</span><input value="E1001" disabled style="background:#F7FAFB;color:#8A98A5"></div>
+        <div class="it"><span>姓名</span><input value="沈玉兰"></div>
+        <div class="it"><span>手机号</span><input value="13900000011"></div>
+        <div class="it"><span>所属部门</span><select><option>客户服务中心</option><option>质量管理部</option></select></div>
+        <div class="it"><span>角色</span><input value="质量经理" disabled style="background:#F7FAFB;color:#8A98A5"></div>
+        <div class="it"><span>数据范围</span><input value="全公司" disabled style="background:#F7FAFB;color:#8A98A5"></div>
+      </div>
+      <div style="margin-top:12px"><button class="btn primary">保存资料</button></div>
+    </div>
+    <div class="card">
+      <h2>修改密码</h2>
+      <div class="fgrid">
+        <div class="it"><span>当前密码</span><input type="password" value="········"></div>
+        <div class="it"><span>新密码</span><input type="password" value=""></div>
+        <div class="it"><span>确认新密码</span><input type="password" value=""></div>
+        <div class="it"><span> </span><div class="hint" style="line-height:34px">8–20 位，需含字母与数字；密码使用 BCrypt 存储</div></div>
+      </div>
+      <div style="margin-top:12px"><button class="btn primary">更新密码</button></div>
+      <div class="note" style="margin-top:12px">登录连续失败 5 次将锁定账号 15 分钟；任何接口与日志均不返回密码字段。</div>
+    </div>
+  </div>
+</div></div>
+</div>
+</div></body></html>

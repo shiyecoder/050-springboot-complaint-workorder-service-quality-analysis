@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>移动端原型 · 客诉工单与服务质量分析系统</title>
+<link rel="stylesheet" href="../mock.css">
+<style></style></head>
+<body><div style="background:#EDF1F4;min-height:100vh;padding:36px;display:flex;gap:36px;justify-content:center;align-items:flex-start">
+<div>
+<div class="phone">
+  <div class="st"><span>9:41</span><span>客诉工单</span><span>100%</span></div>
+  <div class="hd2">我的待办 <span class="tag t-red" style="margin-left:auto">5</span></div>
+  <div class="bd">
+    <div class="mcard" style="border-left:3px solid #B02A37">
+      <div class="t1">CS2026-0917 · 即将超时</div>
+      <div class="t2">张伟 · 安装质量问题 · 严重<br>剩余 0.4 小时响应</div>
+      <div style="display:flex;gap:8px;margin-top:8px"><button class="btn sm primary" style="flex:1">立即接单</button><button class="btn sm" style="flex:1">催办</button></div>
+    </div>
+    <div class="mcard">
+      <div class="t1">CS2026-0911 · 处理中</div>
+      <div class="t2">孙鹏 · 安装质量问题 · 一般<br>剩余 2.2 小时</div>
+      <div style="display:flex;gap:8px;margin-top:8px"><button class="btn sm primary" style="flex:1">提交方案</button></div>
+    </div>
+    <div class="mcard">
+      <div class="t1">CS2026-0922 · 已分派</div>
+      <div class="t2">周雅琴 · 产品故障 · 严重<br>协办 · 截止 11-02 18:00</div>
+      <div style="display:flex;gap:8px;margin-top:8px"><button class="btn sm primary" style="flex:1">接单</button><button class="btn sm danger" style="flex:1">退回</button></div>
+    </div>
+    <div class="mcard">
+      <div class="t1">CS2026-0919 · 已分派</div>
+      <div class="t2">陈美玲 · 配送延误 · 一般<br>协办 · 截止 11-03 10:00</div>
+    </div>
+  </div>
+  <div class="bt"><span class="on">待办</span><span>协办</span><span>消息</span><span>我的</span></div>
+</div>
+<div style="text-align:center;font-size:12px;color:#5B6A76;margin-top:10px">处理人待办列表 · 表格转信息卡片</div>
+</div>
+<div>
+<div class="phone">
+  <div class="st"><span>9:41</span><span>现场录入</span><span>100%</span></div>
+  <div class="hd2">CS2026-0917</div>
+  <div class="bd">
+    <div class="mcard">
+      <div class="t1">调查情况</div>
+      <div class="t2">11-01 10:30 上门复检，拆解锁体后确认电机轴承磨损，非安装工艺导致。</div>
+    </div>
+    <div class="mcard">
+      <div class="t1">责任认定</div>
+      <div style="margin-top:6px"><select style="width:100%"><option>产品质量责任（供方）</option><option>安装工艺责任</option></select></div>
+    </div>
+    <div class="mcard">
+      <div class="t1">现场拍照</div>
+      <div class="imgs" style="margin-top:8px">
+        <div class="img-box" style="width:90px;height:70px;font-size:11px">锁体拆解</div>
+        <div class="img-box" style="width:90px;height:70px;font-size:11px">批次单</div>
+        <div class="upload" style="width:70px;height:70px">+</div>
+      </div>
+    </div>
+    <div class="mcard">
+      <div class="t1">解决方案</div>
+      <div class="t2">免费更换 K7 新机 1 台，11-02 上午上门更换并回收旧机，退还安装费 180 元。</div>
+    </div>
+  </div>
+  <div class="bt" style="gap:8px;padding:0 14px">
+    <button class="btn" style="flex:0 0 88px">存草稿</button>
+    <button class="btn primary" style="flex:1">提交审核</button>
+  </div>
+</div>
+<div style="text-align:center;font-size:12px;color:#5B6A76;margin-top:10px">现场录入 · 底部固定操作区不遮挡内容</div>
+</div>
+</div></body></html>

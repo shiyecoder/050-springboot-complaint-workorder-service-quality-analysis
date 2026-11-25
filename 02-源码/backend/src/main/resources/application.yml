@@ -1,0 +1,50 @@
+# 客诉工单与服务质量分析系统（NEW-050，通道 2）
+server:
+  # 通道 2 专用端口（由 pipeline/queue.py 分配，勿改成 8080/8085）
+  port: 8081
+  servlet:
+    encoding:
+      charset: UTF-8
+      force: true
+
+spring:
+  application:
+    name: complaint-service
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/new_050?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true&useSSL=false
+    username: root
+    password: "123456"
+    hikari:
+      maximum-pool-size: 8
+      minimum-idle: 2
+  servlet:
+    multipart:
+      # 投诉证据照片与整改凭证体积较大，单文件 20MB，单次请求 60MB
+      max-file-size: 20MB
+      max-request-size: 60MB
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: Asia/Shanghai
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+  global-config:
+    db-config:
+      id-type: auto
+      logic-delete-field: deleted
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+
+# 业务侧配置：上传根目录与 JWT
+app:
+  upload-dir: ./uploads
+  jwt-secret: complaint-ticket-graduation-project-2026-secret-key-please-change-me
+  jwt-expire-hours: 12
+  login-fail-limit: 5
+  login-lock-minutes: 10
+
+logging:
+  level:
+    com.grad.csc: info

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>客户确认跟踪 · 客诉工单与服务质量分析系统</title>
+<link rel="stylesheet" href="../mock.css">
+<style></style></head>
+<body><div class="shell">
+<aside class="side" style="background:#23415C">
+  <div class="brand"><span class="mark">客</span>客诉工单系统</div>
+  <nav class="nav">
+<div class="group">受理作业</div>
+<a class="" href="03_intake_desk.html">客诉受理台<span class="badge">5</span></a>
+<a class="" href="04_intake_new.html">新建投诉登记</a>
+<a class="" href="05_ticket_list.html">投诉台账</a>
+<a class="" href="06_ticket_detail.html">投诉详情</a>
+<div class="group">服务闭环</div>
+<a class="on" href="11_confirm.html">客户确认跟踪<span class="badge">4</span></a>
+<a class="" href="12_revisit.html">回访与评价<span class="badge">3</span></a>
+<a class="" href="19_knowledge.html">知识库</a>
+<a class="" href="20_archive.html">客户与对象档案</a>
+<div class="group">个人</div>
+<a class="" href="22_message.html">站内消息<span class="badge">3</span></a>
+<a class="" href="23_profile.html">个人中心</a>
+</nav>
+  <div style="padding:9px 18px 0;font-size:11px;color:#7E8F9C;line-height:1.7;border-top:1px solid rgba(255,255,255,.1);margin-top:8px">
+    客户服务中心 · 待办 11 项
+  </div>
+</aside>
+<div class="main">
+  <header class="top">
+    <div class="crumb">服务闭环 / <b>客户确认跟踪</b></div>
+    <div class="spacer"></div>
+    <div class="crumb">客户服务中心</div>
+    <button class="icon-btn"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" style="display:block;flex:0 0 auto;color:currentColor"><path d="M6 9a6 6 0 1112 0c0 4 1.5 6 1.5 6h-15S6 13 6 9z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M10 18.5a2 2 0 004 0" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
+    <button class="icon-btn"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" style="display:block;flex:0 0 auto;color:currentColor"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M9.6 9.4a2.5 2.5 0 114.2 1.9c-.9.7-1.8 1.2-1.8 2.5M12 17.2v.4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
+    <div class="avatar">何</div>
+    <div style="font-size:13px">何静文<span style="color:#5B6A76;font-size:12px;display:block;line-height:1.2">客服人员</span></div>
+  </header>
+  <div class="content">
+<div class="page-head"><div>
+  <h1>客户确认跟踪</h1>
+  <div class="sub">待确认 4 条 · 超 48 小时未确认 1 条 · 客户异议 2 条</div>
+</div><div class="acts">
+  <button class="btn">批量提醒</button>
+  <select style="width:170px"><option>全部状态</option><option>待确认</option><option>已接受</option><option>提出异议</option></select>
+</div></div>
+<div class="summary">
+  <div><div class="k">待客户确认</div><div class="v">4</div></div>
+  <div><div class="k">已接受</div><div class="v" style="color:#2B7955">11</div></div>
+  <div><div class="k">提出异议</div><div class="v" style="color:#B02A37">2</div></div>
+  <div><div class="k">平均确认时长</div><div class="v">18.6<span style="font-size:13px;color:#5B6A76"> h</span></div></div>
+</div>
+<div class="card">
+<div class="tbl-wrap"><table><thead><tr><th>客诉编号</th><th>客户</th><th>处理结果摘要</th><th>推送时间</th><th>剩余确认时间</th><th>状态</th><th>操作</th></tr></thead><tbody><tr><td class="nowrap"><a href="06_ticket_detail.html" class="num"><b>CS2026-0915</b></a></td><td>王海洋</td><td>免费更换主板，已上门完成</td><td class="num">2026-10-31 18:02</td><td class="nowrap"><span class="num">剩余 49.0h</span></td><td><span class="tag t-amber">待确认</span></td><td class="nowrap"><button class="btn sm">发送提醒</button></td></tr><tr><td class="nowrap"><span class="num"><b>CS2026-0912</b></span></td><td>赵晓雯</td><td>补发配件并延长保修 3 个月</td><td class="num">2026-10-30 16:20</td><td class="nowrap"><span class="num" style="color:#B02A37">剩余 3.4h</span></td><td><span class="tag t-amber">待确认</span></td><td class="nowrap"><button class="btn sm primary">发送提醒</button></td></tr><tr><td class="nowrap"><span class="num"><b>CS2026-0906</b></span></td><td>吴海涛</td><td>退还未送达运费 25 元</td><td class="num">2026-10-29 09:40</td><td class="nowrap"><span class="num">超期未确认 26h</span></td><td><span class="tag t-red">已超期待回访</span></td><td class="nowrap"><button class="btn sm">转回访</button></td></tr><tr><td class="nowrap"><span class="num"><b>CS2026-0903</b></span></td><td>孙鹏</td><td>更换滤芯并减免上门费</td><td class="num">2026-10-28 11:10</td><td class="nowrap"><span class="num">—</span></td><td><span class="tag t-red">客户异议</span></td><td class="nowrap"><button class="btn sm">查看异议</button></td></tr><tr><td class="nowrap"><span class="num"><b>CS2026-0901</b></span></td><td>郑丽</td><td>重新上门调试，已恢复正常</td><td class="num">2026-10-27 15:26</td><td class="nowrap"><span class="num">—</span></td><td><span class="tag t-green">客户已接受</span></td><td class="nowrap"><button class="btn sm">查看评价</button></td></tr></tbody></table></div><div class="pager"><div>共 <b>17</b> 条 · 每页 <select style="width:78px;height:28px;display:inline-block"><option>10</option><option>20</option><option>50</option></select> 条</div><div style="display:flex;gap:6px;align-items:center"><button class="btn sm">上一页</button><span style="padding:0 6px" class="num">1 / 2</span><button class="btn sm">下一页</button></div></div>
+</div>
+<div class="card" style="margin-top:14px">
+  <h2>客户异议 · CS2026-0903</h2>
+  <div class="row" style="gap:20px">
+    <div style="flex:1">
+      <div class="hint" style="margin-bottom:6px">客户留言（2026-10-28 14:02）</div>
+      <div style="font-size:13px;line-height:1.9">滤芯换了但还是有异味，上门费也说减免了，实际收款单上还收了我 60 元。要求退款并说明原因。</div>
+    </div>
+    <div style="width:300px;flex:0 0 300px">
+      <div class="hint" style="margin-bottom:6px">处理建议</div>
+      <div class="note" style="border-left-color:#B02A37">异议成立时需回到「处理中」重新处理，并在时间轴记录重新打开的原因；不得直接修改已归档结果。</div>
+      <div style="display:flex;gap:8px;margin-top:10px">
+        <button class="btn primary sm">打回重新处理</button>
+        <button class="btn sm">维持原结果</button>
+      </div>
+    </div>
+  </div>
+</div></div>
+</div>
+</div></body></html>

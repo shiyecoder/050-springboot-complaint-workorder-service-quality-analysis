@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>结果审核 · 客诉工单与服务质量分析系统</title>
+<link rel="stylesheet" href="../mock.css">
+<style></style></head>
+<body><div class="shell">
+<aside class="side" style="background:#19324A">
+  <div class="brand"><span class="mark">客</span>客诉工单系统</div>
+  <nav class="nav">
+<div class="group">工作台</div>
+<a class="" href="02_dashboard.html">服务质量驾驶舱</a>
+<div class="group">受理与分派</div>
+<a class="" href="03_intake_desk.html">客诉受理台<span class="badge">5</span></a>
+<a class="" href="07_dispatch.html">SLA工单看板<span class="badge">7</span></a>
+<a class="" href="14_warning.html">时限预警中心<span class="badge">4</span></a>
+<a class="" href="15_delay.html">延时申请审批<span class="badge">2</span></a>
+<div class="group">过程管控</div>
+<a class="" href="05_ticket_list.html">投诉台账</a>
+<a class="" href="06_ticket_detail.html">投诉详情</a>
+<a class="on" href="10_review.html">结果审核<span class="badge">6</span></a>
+<a class="" href="13_reopen.html">重开记录</a>
+<div class="group">质量改进</div>
+<a class="" href="16_cluster.html">共性问题分析</a>
+<a class="" href="17_rule.html">聚类规则与权重</a>
+<a class="" href="18_rectify.html">整改任务<span class="badge">3</span></a>
+<a class="" href="19_knowledge.html">知识库</a>
+<div class="group">个人</div>
+<a class="" href="22_message.html">站内消息<span class="badge">3</span></a>
+<a class="" href="23_profile.html">个人中心</a>
+</nav>
+  <div style="padding:9px 18px 0;font-size:11px;color:#7E8F9C;line-height:1.7;border-top:1px solid rgba(255,255,255,.1);margin-top:8px">
+    客户服务中心 · 待办 11 项
+  </div>
+</aside>
+<div class="main">
+  <header class="top">
+    <div class="crumb">过程管控 / <b>结果审核</b></div>
+    <div class="spacer"></div>
+    <div class="crumb">客户服务中心</div>
+    <button class="icon-btn"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" style="display:block;flex:0 0 auto;color:currentColor"><path d="M6 9a6 6 0 1112 0c0 4 1.5 6 1.5 6h-15S6 13 6 9z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M10 18.5a2 2 0 004 0" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
+    <button class="icon-btn"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" style="display:block;flex:0 0 auto;color:currentColor"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M9.6 9.4a2.5 2.5 0 114.2 1.9c-.9.7-1.8 1.2-1.8 2.5M12 17.2v.4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
+    <div class="avatar">沈</div>
+    <div style="font-size:13px">沈玉兰<span style="color:#5B6A76;font-size:12px;display:block;line-height:1.2">质量经理</span></div>
+  </header>
+  <div class="content">
+<div class="page-head"><div>
+  <h1>结果审核</h1>
+  <div class="sub">待审核 6 条 · 平均等待 4.2 小时 · 审核不通过必须填写不少于 5 个字的原因</div>
+</div><div class="acts">
+  <button class="btn">批量通过</button>
+  <select style="width:170px"><option>全部责任部门</option><option>安装服务部</option><option>售后服务部</option></select>
+</div></div>
+<div class="row" style="align-items:flex-start">
+  <div style="flex:1;min-width:520px">
+    <div class="card">
+<div class="tbl-wrap"><table><thead><tr><th></th><th>客诉编号</th><th>处理人</th><th>责任部门</th><th>责任认定</th><th>等待时长</th><th>操作</th></tr></thead><tbody><tr><td><input type="checkbox" checked style="width:14px;height:14px"></td><td class="nowrap"><span class="num"><b>CS2026-0916</b></span></td><td>郑立</td><td>售后服务部</td><td>收费口径不清</td><td class="num">2.1h</td><td class="nowrap"><button class="btn sm primary">审核</button></td></tr><tr><td><input type="checkbox" checked style="width:14px;height:14px"></td><td class="nowrap"><span class="num"><b>CS2026-0924</b></span></td><td>郑立</td><td>安装服务部</td><td>安装工艺责任</td><td class="num">4.6h</td><td class="nowrap"><button class="btn sm primary">审核</button></td></tr><tr><td><input type="checkbox" checked style="width:14px;height:14px"></td><td class="nowrap"><span class="num"><b>CS2026-0925</b></span></td><td>吴海涛</td><td>物流配送部</td><td>物流时效责任</td><td class="num">5.2h</td><td class="nowrap"><button class="btn sm primary">审核</button></td></tr><tr><td><input type="checkbox" style="width:14px;height:14px"></td><td class="nowrap"><span class="num"><b>CS2026-0926</b></span></td><td>沈玉兰</td><td>质量管理部</td><td>产品质量责任</td><td class="num">7.8h</td><td class="nowrap"><button class="btn sm primary">审核</button></td></tr><tr><td><input type="checkbox" style="width:14px;height:14px"></td><td class="nowrap"><span class="num"><b>CS2026-0927</b></span></td><td>郑立</td><td>安装服务部</td><td>多方责任</td><td class="num">9.4h</td><td class="nowrap"><button class="btn sm primary">审核</button></td></tr></tbody></table></div><div class="pager"><div>共 <b>6</b> 条 · 每页 <select style="width:78px;height:28px;display:inline-block"><option>10</option><option>20</option><option>50</option></select> 条</div><div style="display:flex;gap:6px;align-items:center"><button class="btn sm">上一页</button><span style="padding:0 6px" class="num">1 / 1</span><button class="btn sm">下一页</button></div></div></div>
+  </div>
+  <div style="width:460px;flex:0 0 460px">
+    <div class="card">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px">
+        <h2 style="margin:0">审核 · CS2026-0916</h2><span class="tag t-amber">待审核</span>
+      </div>
+      <div class="summary" style="margin-bottom:12px">
+        <div><div class="k">客户</div><div class="v" style="font-size:14px">李静</div></div>
+        <div><div class="k">等级</div><div class="v" style="font-size:14px">一般</div></div>
+        <div><div class="k">处理人</div><div class="v" style="font-size:14px">郑立</div></div>
+        <div><div class="k">提交时间</div><div class="v" style="font-size:14px" class="num">14:20</div></div>
+      </div>
+      <div class="hint" style="margin-bottom:6px">解决方案</div>
+      <div style="font-size:13px;line-height:1.9;margin-bottom:12px">经核实，客户购买时门店未告知「上门检测费 80 元」的收取条件，属告知不充分。已退还检测费 80 元，并在门店价目表补充该条款。</div>
+      <div class="hint" style="margin-bottom:6px">审核清单</div>
+      <div style="font-size:13px;line-height:2.1">
+        <div><span class="tag t-green">通过</span> 方案是否回应客户诉求</div>
+        <div><span class="tag t-green">通过</span> 证据附件是否齐全（3 个）</div>
+        <div><span class="tag t-green">通过</span> 责任认定是否合理</div>
+        <div><span class="tag t-amber">待核</span> 是否需同步质量复盘</div>
+      </div>
+      <div style="margin-top:12px">
+        <div class="hint" style="margin-bottom:6px">审核意见</div>
+        <textarea rows="3" style="width:100%">方案合理，证据齐全。收费口径问题建议同步至服务规范，避免同类投诉。</textarea>
+      </div>
+      <div style="display:flex;gap:8px;margin-top:12px">
+        <button class="btn primary" style="flex:1">审核通过并推送客户</button>
+        <button class="btn danger" style="flex:0 0 108px">退回处理人</button>
+      </div>
+      <div class="note" style="margin-top:12px">审核通过后工单进入「待客户确认」，客户 72 小时未确认按规则自动转「待回访」，不得静默删除。</div>
+    </div>
+  </div>
+</div></div>
+</div>
+</div></body></html>

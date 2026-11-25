@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>共性问题分析 · 客诉工单与服务质量分析系统</title>
+<link rel="stylesheet" href="../mock.css">
+<style></style></head>
+<body><div class="shell">
+<aside class="side" style="background:#19324A">
+  <div class="brand"><span class="mark">客</span>客诉工单系统</div>
+  <nav class="nav">
+<div class="group">工作台</div>
+<a class="" href="02_dashboard.html">服务质量驾驶舱</a>
+<div class="group">受理与分派</div>
+<a class="" href="03_intake_desk.html">客诉受理台<span class="badge">5</span></a>
+<a class="" href="07_dispatch.html">SLA工单看板<span class="badge">7</span></a>
+<a class="" href="14_warning.html">时限预警中心<span class="badge">4</span></a>
+<a class="" href="15_delay.html">延时申请审批<span class="badge">2</span></a>
+<div class="group">过程管控</div>
+<a class="" href="05_ticket_list.html">投诉台账</a>
+<a class="" href="06_ticket_detail.html">投诉详情</a>
+<a class="" href="10_review.html">结果审核<span class="badge">6</span></a>
+<a class="" href="13_reopen.html">重开记录</a>
+<div class="group">质量改进</div>
+<a class="on" href="16_cluster.html">共性问题分析</a>
+<a class="" href="17_rule.html">聚类规则与权重</a>
+<a class="" href="18_rectify.html">整改任务<span class="badge">3</span></a>
+<a class="" href="19_knowledge.html">知识库</a>
+<div class="group">个人</div>
+<a class="" href="22_message.html">站内消息<span class="badge">3</span></a>
+<a class="" href="23_profile.html">个人中心</a>
+</nav>
+  <div style="padding:9px 18px 0;font-size:11px;color:#7E8F9C;line-height:1.7;border-top:1px solid rgba(255,255,255,.1);margin-top:8px">
+    客户服务中心 · 待办 11 项
+  </div>
+</aside>
+<div class="main">
+  <header class="top">
+    <div class="crumb">质量改进 / <b>共性问题分析</b></div>
+    <div class="spacer"></div>
+    <div class="crumb">客户服务中心</div>
+    <button class="icon-btn"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" style="display:block;flex:0 0 auto;color:currentColor"><path d="M6 9a6 6 0 1112 0c0 4 1.5 6 1.5 6h-15S6 13 6 9z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M10 18.5a2 2 0 004 0" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
+    <button class="icon-btn"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" style="display:block;flex:0 0 auto;color:currentColor"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M9.6 9.4a2.5 2.5 0 114.2 1.9c-.9.7-1.8 1.2-1.8 2.5M12 17.2v.4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
+    <div class="avatar">沈</div>
+    <div style="font-size:13px">沈玉兰<span style="color:#5B6A76;font-size:12px;display:block;line-height:1.2">质量经理</span></div>
+  </header>
+  <div class="content">
+<div class="page-head"><div>
+  <h1>共性问题分析</h1>
+  <div class="sub">结构化共性问题聚类 · 规则版本 v3（2026-10-15 生效） · 本次计算 2026-11-01 19:40 · 覆盖近 30 天 286 条投诉</div>
+</div><div class="acts">
+  <button class="btn">重新计算</button>
+  <button class="btn ghost">查看规则版本</button>
+  <button class="btn primary">一键转整改任务</button>
+</div></div>
+<div class="row" style="align-items:flex-start">
+  <div style="flex:1;min-width:600px">
+    <div class="card" style="margin-bottom:14px">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
+        <h2 style="margin:0">候选组 · 智能门锁 K7 门体异响</h2>
+        <div style="display:flex;gap:8px;align-items:center">
+          <span class="tag t-red">高相似 87.4 分</span><span class="tag t-red">建议转整改</span>
+        </div>
+      </div>
+      <div class="summary" style="margin-bottom:14px">
+        <div><div class="k">关联产品</div><div class="v" style="font-size:15px">智能门锁 K7</div></div>
+        <div><div class="k">服务环节</div><div class="v" style="font-size:15px">上门安装</div></div>
+        <div><div class="k">问题类型</div><div class="v" style="font-size:15px">安装质量问题</div></div>
+        <div><div class="k">近 30 天次数</div><div class="v" style="font-size:15px">17</div></div>
+      </div>
+      <div class="hint" style="margin-bottom:8px">六因子得分明细（权重合计 100%）</div>
+      <div class="score-row"><div>关联产品<small style="color:#5B6A76"> · 25%</small></div><div class="bar"><i style="width:96%"></i></div><div class="v">24.0</div></div>
+      <div class="score-row"><div>服务环节<small style="color:#5B6A76"> · 15%</small></div><div class="bar"><i style="width:93%"></i></div><div class="v">14.0</div></div>
+      <div class="score-row"><div>问题类型<small style="color:#5B6A76"> · 20%</small></div><div class="bar"><i style="width:100%"></i></div><div class="v">20.0</div></div>
+      <div class="score-row"><div>原因标签<small style="color:#5B6A76"> · 15%</small></div><div class="bar"><i style="width:80%"></i></div><div class="v">12.0</div></div>
+      <div class="score-row"><div>责任部门<small style="color:#5B6A76"> · 10%</small></div><div class="bar"><i style="width:88%"></i></div><div class="v">8.8</div></div>
+      <div class="score-row"><div>近30天频次<small style="color:#5B6A76"> · 15%</small></div><div class="bar"><i style="width:86%"></i></div><div class="v">8.6</div></div>
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-top:10px;padding-top:10px;border-top:1px dashed #DEE4E9">
+        <div class="hint">综合得分 = Σ(因子得分 × 权重) · 阈值：高相似 ≥ 80，中相似 60–79，低相似 &lt; 60</div>
+        <div style="font-size:20px;font-weight:600;color:#B02A37" class="num">87.4</div>
+      </div>
+    </div>
+    <div class="row" style="gap:14px">
+      <div class="card" style="flex:1">
+        <h2>主要影响因素</h2>
+        <div style="font-size:13px;line-height:2">
+          <div>① 同一产品 <b>K7 门锁</b> 30 天内 17 条投诉，占该产品总投诉的 73%</div>
+          <div>② 问题类型全部落在「安装质量问题」，无其他类型分散</div>
+          <div>③ 原因标签集中为「电机异响 / 批次缺陷」两类</div>
+          <div>④ 责任部门 100% 指向安装服务部</div>
+        </div>
+      </div>
+      <div class="card" style="flex:1">
+        <h2>未满足条件与可改进项</h2>
+        <div style="font-size:13px;line-height:2">
+          <div><span class="tag t-amber">未满足</span> 原因标签覆盖不全，5 条投诉缺标签（建议受理时强制选择）</div>
+          <div><span class="tag t-amber">未满足</span> 未关联订单号，无法核算批次影响面</div>
+          <div><span class="tag t-blue">可改进</span> 建立 K7 批次 7702 专项排查任务</div>
+          <div><span class="tag t-blue">可改进</span> 安装验收单增加异响自检项</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div style="width:360px;flex:0 0 360px">
+    <div class="card" style="margin-bottom:14px">
+      <h2>聚类结果分布</h2>
+      <div class="donut-wrap"><div class="donut" style="background:conic-gradient(#19324A 0.00deg 52.68deg,#356A7A 52.68deg 149.27deg,#8AA6B2 149.27deg 360.00deg)"><div class="mid"><div><b>41</b><span>候选组</span></div></div></div><div class="lg"><div><i style="background:#19324A"></i>高相似<b>6</b></div><div><i style="background:#356A7A"></i>中相似<b>11</b></div><div><i style="background:#8AA6B2"></i>低相似<b>24</b></div></div></div>
+      <div class="hint" style="margin-top:8px">共 41 个候选组，其中高相似 6 组建议转整改</div>
+    </div>
+    <div class="card" style="margin-bottom:14px">
+      <h2>人工调整记录</h2>
+      <div class="timeline">
+        <div class="ev warn"><div class="h">沈玉兰 将 G-014 由「中相似」改为「高相似」</div><div class="d">2026-10-28 10:12 · 原因：客户集中投诉同一批次</div></div>
+        <div class="ev"><div class="h">何静文 将 G-009 由「高相似」改为「不转整改」</div><div class="d">2026-10-25 16:40 · 原因：已由厂家召回处理</div></div>
+      </div>
+      <div class="hint" style="margin-top:6px">人工调整不覆盖原始计算结果，两者同时保留</div>
+    </div>
+    <div class="card">
+      <h2>采纳与效果</h2>
+      <div style="font-size:13px;line-height:2.2">
+        <div style="display:flex;justify-content:space-between"><span class="hint">推荐采纳率</span><b class="num">72.5%</b></div>
+        <div style="display:flex;justify-content:space-between"><span class="hint">人工调整率</span><b class="num">18.3%</b></div>
+        <div style="display:flex;justify-content:space-between"><span class="hint">转整改后复发率</span><b class="num" style="color:#2B7955">9.4%</b></div>
+        <div style="display:flex;justify-content:space-between"><span class="hint">未转整改复发率</span><b class="num" style="color:#B02A37">27.8%</b></div>
+      </div>
+    </div>
+  </div>
+</div></div>
+</div>
+</div></body></html>

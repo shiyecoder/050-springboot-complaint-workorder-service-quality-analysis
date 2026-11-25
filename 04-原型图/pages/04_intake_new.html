@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>新建投诉登记 · 客诉工单与服务质量分析系统</title>
+<link rel="stylesheet" href="../mock.css">
+<style></style></head>
+<body><div class="shell">
+<aside class="side" style="background:#23415C">
+  <div class="brand"><span class="mark">客</span>客诉工单系统</div>
+  <nav class="nav">
+<div class="group">受理作业</div>
+<a class="" href="03_intake_desk.html">客诉受理台<span class="badge">5</span></a>
+<a class="on" href="04_intake_new.html">新建投诉登记</a>
+<a class="" href="05_ticket_list.html">投诉台账</a>
+<a class="" href="06_ticket_detail.html">投诉详情</a>
+<div class="group">服务闭环</div>
+<a class="" href="11_confirm.html">客户确认跟踪<span class="badge">4</span></a>
+<a class="" href="12_revisit.html">回访与评价<span class="badge">3</span></a>
+<a class="" href="19_knowledge.html">知识库</a>
+<a class="" href="20_archive.html">客户与对象档案</a>
+<div class="group">个人</div>
+<a class="" href="22_message.html">站内消息<span class="badge">3</span></a>
+<a class="" href="23_profile.html">个人中心</a>
+</nav>
+  <div style="padding:9px 18px 0;font-size:11px;color:#7E8F9C;line-height:1.7;border-top:1px solid rgba(255,255,255,.1);margin-top:8px">
+    客户服务中心 · 待办 11 项
+  </div>
+</aside>
+<div class="main">
+  <header class="top">
+    <div class="crumb">受理作业 / <b>新建投诉登记</b></div>
+    <div class="spacer"></div>
+    <div class="crumb">客户服务中心</div>
+    <button class="icon-btn"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" style="display:block;flex:0 0 auto;color:currentColor"><path d="M6 9a6 6 0 1112 0c0 4 1.5 6 1.5 6h-15S6 13 6 9z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M10 18.5a2 2 0 004 0" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
+    <button class="icon-btn"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" style="display:block;flex:0 0 auto;color:currentColor"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M9.6 9.4a2.5 2.5 0 114.2 1.9c-.9.7-1.8 1.2-1.8 2.5M12 17.2v.4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
+    <div class="avatar">何</div>
+    <div style="font-size:13px">何静文<span style="color:#5B6A76;font-size:12px;display:block;line-height:1.2">客服人员</span></div>
+  </header>
+  <div class="content">
+<div class="page-head"><div>
+  <h1>新建投诉登记</h1>
+  <div class="sub">客诉编号由后端生成：受理保存后自动分配 CS2026-XXXX，前端只读</div>
+</div><div class="acts">
+  <button class="btn">保存草稿</button>
+  <button class="btn primary">提交受理</button>
+</div></div>
+<div class="row" style="align-items:flex-start">
+  <div style="flex:1;min-width:560px">
+    <div class="card" style="margin-bottom:14px">
+      <h2>投诉基本信息</h2>
+      <div class="fgrid">
+        <div class="it"><span>客诉编号</span><input value="保存后自动生成" disabled style="background:#F7FAFB;color:#8A98A5"></div>
+        <div class="it"><span><i style="color:#B02A37">*</i> 客户</span><select><option>张伟 · 138****2210 · 家装客户</option><option>李静 · 139****6621</option><option>+ 新建客户档案</option></select></div>
+        <div class="it"><span><i style="color:#B02A37">*</i> 投诉渠道</span><select><option>电话</option><option>门店</option><option>微信</option><option>邮件</option><option>官网</option></select></div>
+        <div class="it"><span><i style="color:#B02A37">*</i> 关联对象</span><select><option>智能门锁 K7 · SN 7702-118843</option><option>净水器 R500 · SN 5501-992013</option></select></div>
+        <div class="it"><span><i style="color:#B02A37">*</i> 问题分类</span><select><option>安装质量问题</option><option>产品故障</option><option>配送延误</option><option>收费争议</option><option>售后响应慢</option><option>服务态度</option></select></div>
+        <div class="it"><span>严重等级</span><select><option>严重（按分类自动带出）</option><option>一般</option><option>轻微</option></select></div>
+        <div class="it full"><span>投诉主题</span><input value="门锁安装后反复异响，上门两次未解决"></div>
+        <div class="it full"><span>投诉内容</span><textarea rows="4">10 月 28 日安装的 K7 门锁，当天晚上出现电机异响，10 月 30 日师傅上门加润滑油后仍存在。客户要求换新或全额退款，情绪较激动。</textarea></div>
+        <div class="it"><span>客户诉求</span><input value="更换新机或全额退款" maxlength="100"><div></div></div>
+        <div class="it"><span>发生时间</span><input type="datetime-local" value="2026-10-28T19:30"></div>
+        <div class="it"><span>发生地点</span><input value="南湖市云栖路 18 号 3 栋 1902"></div>
+        <div class="it"><span>责任部门</span><select><option>安装服务部（按分类推荐）</option><option>售后服务部</option><option>质量管理部</option></select></div>
+      </div>
+    </div>
+    <div class="card">
+      <h2>证据附件</h2>
+      <div class="hint" style="margin-bottom:10px">支持 jpg / png / pdf，单文件 ≤ 10MB，最多 6 个；仅接受上传，不支持填写外部链接。</div>
+      <div class="imgs">
+        <div class="img-box">门锁异响<br>录音封面.jpg</div>
+        <div class="img-box">安装单<br>照片.jpg</div>
+        <div class="upload">+<br>上传证据</div>
+      </div>
+    </div>
+  </div>
+  <div style="width:340px;flex:0 0 340px">
+    <div class="card" style="margin-bottom:14px">
+      <h2>SLA 自动匹配</h2>
+      <div class="kv" style="grid-template-columns:1fr;gap:9px">
+        <div><span style="color:#5B6A76;font-size:13px">建议等级</span><div style="margin-top:4px"><span class="tag t-red">严重</span> <span class="hint">分类=安装质量 + 客户类型=家装</span></div></div>
+        <div><span style="color:#5B6A76;font-size:13px">响应时限</span><div style="margin-top:4px" class="num"><b>2 小时</b>（截止 2026-11-01 11:41）</div></div>
+        <div><span style="color:#5B6A76;font-size:13px">处理时限</span><div style="margin-top:4px" class="num"><b>24 小时</b>（截止 2026-11-02 09:41）</div></div>
+        <div><span style="color:#5B6A76;font-size:13px">默认责任部门</span><div style="margin-top:4px">安装服务部</div></div>
+      </div>
+      <div class="note" style="margin-top:12px">高等级投诉进入重点关注列表，响应与处理时限各压缩 50%。组长可调整等级，但必须填写调整原因。</div>
+    </div>
+    <div class="card">
+      <h2>历史客诉</h2>
+      <div class="timeline">
+        <div class="ev"><div class="h">CS2026-0781 · 已归档</div><div class="d">2026-09-14 · 安装质量 · 一次解决</div></div>
+        <div class="ev"><div class="h">CS2026-0623 · 已归档</div><div class="d">2026-08-02 · 收费争议 · 客户确认接受</div></div>
+      </div>
+      <div class="note" style="margin-top:6px;border-left-color:#B02A37">近 30 天同客户同对象 2 条投诉，建议关联主工单 CS2026-0781 处理，避免重复建单。</div>
+    </div>
+  </div>
+</div></div>
+</div>
+</div></body></html>
